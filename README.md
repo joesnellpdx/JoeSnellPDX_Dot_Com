@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 JoeSnellPDX-WP-Theme
 ====================
 
@@ -28,3 +29,9 @@ Below is some information I kept here because it relates to some of the files/se
 I will using this theme as a foundation to fork individual projects.  Stay tuned!
 
 Thank you for checking it out!
+=======
+JoeSnellPDX_Dot_Com
+===================
+
+Wordpress Theme for personal site. Fusion of Twitter Bootstrap and _s from Automattic.
+>>>>>>> 71a026e089812bc02c3789d49c5a46be418efba1
