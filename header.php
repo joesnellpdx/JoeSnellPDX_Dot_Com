@@ -1,6 +1,6 @@
 <?php
 /**
- * The Header for our theme.
+ * The Primary Header for our theme.
  *
  * Displays all of the <head> section and everything up till <div id="main">
  *
@@ -39,7 +39,7 @@
 
 	?></title>
     
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
   <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
@@ -64,11 +64,19 @@
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->	
 
-  <!-- Navbar
+  
+    
+    <div class="container">
+
+<div id="page" class="hfeed site">
+	<?php do_action( 'before' ); ?>
+	<header id="masthead" class="jumbotron masthead site-header" role="banner">
+    
+		<!-- Navbar
     ================================================== -->
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
+    
+    <div class="navbar navbar-fixed-top base">
+        <div class="navbar-inner">
         	
           <button type="button"class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
@@ -76,8 +84,14 @@
             <span class="icon-bar"></span>
           </button>
           
-          <img class="brand" src="http://www.joesnellpdx.com/wp-content/uploads/2012/07/Joe-Snell-Logowhite.png" alt="Joe Snell PDX Logo" height="25" width="25" />
-          <a class="brand" href="<?php the_permalink(); ?>"><?php wp_title( " " ); ?></a>
+          <hgroup>
+			<div class="logo-head-base">
+            <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="http://www.joesnellpdx.com/wp-content/uploads/2012/07/Joe-Snell-Logowhite.png" alt="Joe Snell PDX Logo" width="100%" /></a>
+            </div> <!-- .logo-head -->
+            <h1 class="brand-base"><?php wp_title( " " ); ?></h1>
+		</hgroup>
+          
+          
           
           <div class="nav-collapse collapse">
             
@@ -109,29 +123,22 @@
               <li class="">
                 <a href="./examples.html">Examples</a>
               </li> -->
-            </ul>
+            <!--</ul>-->
           </div>
-        </div>
-      </div>
-    </div>
+          </div> <!-- .inner -->
+        </div> <!-- .navbar -->
+      
     
 <!-- END Navbar
     ================================================== -->
-    
-    <div class="container">
-
-<div id="page" class="hfeed site">
-	<?php do_action( 'before' ); ?>
-	<!-- <header id="masthead" class="jumbotron masthead site-header" role="banner">
-		<div class="inner">
-        <hgroup>
+        <!-- <hgroup>
 			<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><h1><?php bloginfo( 'name' ); ?></h1></a>
 			<p><?php bloginfo( 'description' ); ?></p>
             <p class="download-info">
        <a href="https://github.com/joesnellpdx/JoeSnellPDX-WP-Theme" target="_blank" class="btn btn-primary btn-large" >View project on GitHub</a>
       <a href="http://www.joesnellpdx.com/posts/" target="_blank" class="btn btn-large" >View Posts <small>(More on the Way)</small></a>
     </p> 
-		</hgroup>
+		</hgroup> -->
        
         </div>  <!-- .inner -->
 
@@ -143,6 +150,6 @@
 			<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>
 		</nav>
         </div> <!-- .bs-links -->
-	<!--</header><!-- #masthead .site-header --> 
+	</header><!-- #masthead .site-header --> 
 
 	<div id="main">

@@ -1,9 +1,11 @@
 <?php
 /*
-Template Name: joesnell-basic
+Template Name: joesnell-child
 */
 
-get_header(); ?>
+get_header('child'); ?>
+
+	<hr class="soften">
 
 		<div id="primary" class="site-content">
 			<div id="content" role="main">
