@@ -39,7 +39,7 @@
 
 	?></title>
     
-    <meta name="viewport" content="width=320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
   <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
