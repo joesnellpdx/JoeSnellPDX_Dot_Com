@@ -165,4 +165,16 @@ add_action( 'wp_enqueue_scripts', '_s_scripts' );
 
 
 
+/**
+ * Implement additional Excerpt Functions
+ */
+
+function new_excerpt_more($more) {
+       global $post;
+	return '<br /><span class="read-more"> <a href="'. get_permalink($post->ID) . '">[read more]</a></span>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+
+
 

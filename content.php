@@ -10,7 +10,7 @@
 <div class="span12">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header page-header">
-		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'joesnellpdx' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+		<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'joesnellpdx' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
          
 
 		<?php if ( 'post' == get_post_type() ) : ?>
@@ -20,17 +20,12 @@
 		<?php endif; ?>
 	</header><!-- .entry-header page-header -->
 
-	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
+	
 	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-    
-	<?php else : ?>
-	<div class="entry-content">
-		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'joesnellpdx' ) ); ?>
+		<?php the_excerpt( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'joesnellpdx' ) ); ?>
 		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'joesnellpdx' ), 'after' => '</div>' ) ); ?>
 	</div><!-- .entry-content -->
-	<?php endif; ?>
+	
 
 	<footer class="entry-meta">
 		<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>
@@ -56,12 +51,7 @@
 			<?php endif; // End if $tags_list ?>
 		<?php endif; // End if 'post' == get_post_type() ?>
 
-		<?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
-		<span class="sep"> | </span>
-		<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'joesnellpdx' ), __( '1 Comment', 'joesnellpdx' ), __( '% Comments', 'joesnellpdx' ) ); ?></span>
-		<?php endif; ?>
-
-		<?php edit_post_link( __( 'Edit', 'joesnellpdx' ), '<span class="sep"> | </span><span class="edit-link">', '</span>' ); ?>
+		
 	</footer><!-- #entry-meta -->
 </article><!-- #post-<?php the_ID(); ?> -->
 </div> <!-- span8 -->
