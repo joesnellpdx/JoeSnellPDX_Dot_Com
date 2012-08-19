@@ -1,6 +1,6 @@
 <?php
 /**
- * The Primary Header for our theme.
+ * The Portfolio Page Header for our theme.
  *
  * Displays all of the <head> section and everything up till <div id="main">
  *
@@ -26,18 +26,7 @@
 	wp_title( '|', true, 'right' );
 
 	// Add the blog name.
-	bloginfo( 'name' );
-
-	// Add the blog description for the home/front page.
-	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
-		echo " | $site_description";
-
-	// Add a page number if necessary:
-	if ( $paged >= 2 || $page >= 2 )
-		echo ' | ' . sprintf( __( 'Page %s', 'joesnellpdx' ), max( $paged, $page ) );
-
-	?></title>
+	bloginfo( 'name' );?></title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
@@ -59,18 +48,21 @@
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
-<body data-spy="scroll" data-target=".subnav" data-offset="50" <?php body_class(); ?>>
+<body data-spy="scroll" data-target=".subnav" data-offset="50" <?php body_class('landingbody'); ?>>
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->	
 
-  
     
     <div class="container">
 
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
+    
 	<header id="masthead" class="jumbotron masthead site-header" role="banner">
+    
+		<!-- Navbar
+    ================================================== -->
     
 		<!-- Navbar
     ================================================== -->
@@ -97,7 +89,6 @@
             
             	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
         	
-            
           </div>
           </div> <!-- .inner -->
         </div> <!-- .navbar -->
@@ -106,6 +97,6 @@
 <!-- END Navbar
     ================================================== -->
         
-	</header><!-- #masthead .site-header --> 
+	</header> #masthead .site-header 
 
 	<div id="main">

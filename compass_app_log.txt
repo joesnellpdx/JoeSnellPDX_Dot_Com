@@ -279,3 +279,63 @@
 2012-08-13 16:25:37 identical _css/bootstrap.css 
 2012-08-13 16:28:49 overwrite _css/bootstrap.css 
 2012-08-13 16:29:45 identical _css/bootstrap.css 
+2012-08-18 15:31:22     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 15:31:22 overwrite _css/bootstrap.css 
+2012-08-18 15:31:50     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 15:31:50 identical _css/bootstrap.css 
+2012-08-18 15:32:21     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 15:32:21 overwrite _css/bootstrap.css 
+2012-08-18 15:32:48     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 15:32:48 identical _css/bootstrap.css 
+2012-08-18 15:33:11     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 15:33:11 overwrite _css/bootstrap.css 
+2012-08-18 16:10:44     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 16:10:44 overwrite _css/bootstrap.css 
+2012-08-18 16:17:43     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 16:17:43 overwrite _css/bootstrap.css 
+2012-08-18 16:19:40     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 16:19:40 overwrite _css/bootstrap.css 
+2012-08-18 16:22:04     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 16:22:04 overwrite _css/bootstrap.css 
+2012-08-18 16:24:27     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 16:24:27 overwrite _css/bootstrap.css 
+2012-08-18 16:32:12     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 16:32:12 overwrite _css/bootstrap.css 
+2012-08-18 16:33:17     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 16:33:17 overwrite _css/bootstrap.css 
+2012-08-18 16:33:45     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 16:33:45 overwrite _css/bootstrap.css 
+2012-08-18 16:34:06     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 16:34:06 overwrite _css/bootstrap.css 
+2012-08-18 16:37:43     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 16:37:43 overwrite _css/bootstrap.css 
+2012-08-18 16:38:01     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 16:38:01 overwrite _css/bootstrap.css 
+2012-08-18 16:38:50     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Mixin core-span is missing argument $gridColumnWidth.)
+2012-08-18 16:38:50 overwrite _css/bootstrap.css 
+2012-08-18 16:44:04     error _scss/bootstrap.scss (Line 227 of _scss/_navbar.scss: Undefined mixin 'grid-core-span'.)
+2012-08-18 16:44:04 overwrite _css/bootstrap.css 
+2012-08-18 16:45:57 overwrite _css/bootstrap.css 
+2012-08-18 16:53:53 overwrite _css/bootstrap.css 
+2012-08-18 16:54:45 overwrite _css/bootstrap.css 
+2012-08-18 16:55:02 overwrite _css/bootstrap.css 
+2012-08-18 16:56:21 overwrite _css/bootstrap.css 
+2012-08-18 16:56:29 overwrite _css/bootstrap.css 
+2012-08-18 16:57:14 identical _css/bootstrap.css 
+2012-08-18 16:57:21 overwrite _css/bootstrap.css 
+2012-08-18 16:58:32 overwrite _css/bootstrap.css 
+2012-08-18 17:02:42 overwrite _css/bootstrap.css 
+2012-08-18 17:03:30 overwrite _css/bootstrap.css 
+2012-08-18 17:07:57 overwrite _css/bootstrap.css 
+2012-08-18 17:25:37 overwrite _css/bootstrap.css 
+2012-08-18 17:26:13 overwrite _css/bootstrap.css 
+2012-08-18 17:26:40 overwrite _css/bootstrap.css 
+2012-08-18 17:30:33 overwrite _css/bootstrap.css 
+2012-08-18 17:32:34 overwrite _css/bootstrap.css 
+2012-08-18 17:32:47 overwrite _css/bootstrap.css 
+2012-08-18 17:33:42 overwrite _css/bootstrap.css 
+2012-08-18 17:33:57 overwrite _css/bootstrap.css 
+2012-08-18 17:50:12 overwrite _css/bootstrap.css 
+2012-08-18 18:59:34     error _scss/bootstrap.scss (Line 95 of _scss/_type.scss: Invalid CSS after "	line-height:": expected expression (e.g. 1px, bold), was "}")
+2012-08-18 18:59:34 overwrite _css/bootstrap.css 
+2012-08-18 19:00:29 overwrite _css/bootstrap.css 

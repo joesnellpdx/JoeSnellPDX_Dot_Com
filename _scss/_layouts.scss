@@ -15,3 +15,19 @@
   padding-left: $gridGutterWidth;
   @include clearfix();
 }
+
+#portfolio {
+	float:left;
+	width: 46%;	
+	margin: 2%;
+	@include box-sizing(border-box);
+}
+
+
+.portfolio-image {
+	width: 100%;
+	padding: .5em;
+	 @include box-sizing(border-box);
+	xxtext-align: center;
+}
+// see .portfilio-image img details under thumbnails
