@@ -14,6 +14,15 @@ $('.btn-contact').prepend('<p class="btn-icon"><i class="icon-comment"></i></p>'
 
 $('body').scrollTop(1);
 
+$('.portfolio').equalizer(
+{
+		columns : '> li',
+		min: 300,
+		overflow: 'overflowed'
+		
+		});
+//$('.content-wrap').equalizer({ min: 200 });
+
 
 }
 (window.jQuery)

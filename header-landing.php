@@ -98,6 +98,6 @@
 			 <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?> 
 		</nav>
         </div> <!-- .bs-links -->
-	<!--</header><!-- #masthead .site-header 
+	</header><!-- #masthead .site-header  -->
 
 	<div id="main">

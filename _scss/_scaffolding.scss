@@ -15,7 +15,6 @@ body {
   background-color: $bodyBackground;
 }
 
-
 // Links
 // -----
 
@@ -27,3 +26,7 @@ a:hover {
   color: $linkColorHover;
   text-decoration: underline;
 }
+
+// Equalizer - portfolio
+
+.overflowed { overflow: auto; }

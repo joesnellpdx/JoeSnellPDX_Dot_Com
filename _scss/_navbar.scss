@@ -309,9 +309,18 @@
 	  margin: 0 auto;
   }
   
-  #menu-landing-menu {
+  #porftolio {
+	width: 		100%;
+	padding: 	0px;
+	margin: 	0px;
+}
+  
+  #menu-landing-menu,
+  .portfolio
+   {
 	  margin: .5em auto;
   }
+  #portfolio .btn,
   .landingmenu .btn {
 	display: block;
     font-size: 1.2em;
@@ -320,10 +329,16 @@
     padding: 40px 14px;
     margin: 2%;
 	@include box-sizing(border-box);
-	height: 140px;
 	width:46%;
 	float:left;
   }
+  .landingmenu .btn {
+	  	height: 140px;
+  }
+    #portfolio .btn {
+		height: 230px;
+	}
+
   .landingmenu .btn a,
   .landingmenu .btn a:hover {
 

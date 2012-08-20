@@ -88,10 +88,12 @@ h6 {
 
 #portfolio h2 {
 	font-family: $baseFontFamily;
-	font-size: 1.2em;
+	font-size: $baseFontSize;
 	color: $joeorange;
 	font-weight: normal;
 	line-height: $baseLineHeight;
+	padding-top: 8px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 
 
