@@ -64,10 +64,10 @@
   // Nav and dropdown links in navbar
   .nav-collapse .nav > li > a,
   .nav-collapse .dropdown-menu a {
-    padding: 6px 15px;
+    padding: 6px 0px 12px 0px;
     font-weight: bold;
     color: $navbarLinkColor;
-    @include border-radius(3px);
+    @include border-radius(0);
   }
   // Buttons
   .nav-collapse .btn {

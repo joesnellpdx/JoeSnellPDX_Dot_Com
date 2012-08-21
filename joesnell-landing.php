@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: old-landing
+Template Name: landing
 */
 
 

@@ -8,8 +8,8 @@ get_header('portfolio'); ?>
 
 		<div id="primary" class="site-content">
 			<div id="content" role="main">
-            	<div id="portfolio" class="menu navbar content-wrap">
-                		<ul class="portfolio">
+            	<div id="portfolio" class="content-wrap">
+                		<ul class="thumbnails">
 					
 							<?php query_posts('category_name=Portfolio'); ?>
                             <?php while ( have_posts() ) : the_post(); ?>

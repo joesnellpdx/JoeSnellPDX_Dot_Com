@@ -266,14 +266,17 @@
 
 .navbar .nav > li > a,
 .navbar .menu > li > a {
-  float: none;
+  float: left;
   // Vertically center the text given $navbarHeight
   $elementHeight: 20px;
-  padding: (($navbarHeight - $elementHeight) / 2 - 2) 10px (($navbarHeight - $elementHeight) / 2 + 1);
+  padding: (($navbarHeight - $elementHeight) / 2 - 2) 10px (($navbarHeight - $elementHeight) / 2 + 5);
   line-height: 19px;
   color: $joeorange;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  @include box-sizing(border-box);
+  width: 25%;
+  text-align: center;
 }
 .navbar .landingmenu > li > a,
 .navbar .landingmenu .menu > li > a {
@@ -285,6 +288,7 @@
   color: $joeorange;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+
 }
 // Buttons
 .navbar .btn {
@@ -304,23 +308,17 @@
 
 
 // JOE ADD
-  .landingmenu {
-	  width: 95%;
-	  margin: 0 auto;
-  }
-  
-  #porftolio {
-	width: 		100%;
-	padding: 	0px;
-	margin: 	0px;
+.base .nav > li+li > a,
+.base .menu > li+li > a {
+	 border-left: solid 1px $gray;
+    
 }
   
-  #menu-landing-menu,
-  .portfolio
+  
+  #menu-landing-menu
    {
 	  margin: .5em auto;
   }
-  #portfolio .btn,
   .landingmenu .btn {
 	display: block;
     font-size: 1.2em;
@@ -335,14 +333,12 @@
   .landingmenu .btn {
 	  	height: 140px;
   }
-    #portfolio .btn {
-		height: 230px;
-	}
 
   .landingmenu .btn a,
   .landingmenu .btn a:hover {
 
 	text-decoration: none;
+	
   }
 
   .landingbody {
@@ -360,6 +356,9 @@
 	color: #D6D6D6;
 	text-shadow: 1px 1px $gray, -1px -1px $black;
 }
+	.navbar .navbtn {
+		font-size: 2em;
+	}
 
 // Hover
 .navbar .nav > li > a:hover,
@@ -401,7 +400,7 @@
 .navbar .btn-navbar {
   display: none;
   float: right;
-  padding: 10px 10px 20px 10px;
+  padding: 1px 10px 29px 10px;
   margin: 3px 5px 0px 5px;
   @include buttonBackground($gray, $grayDarker);
   @include box-shadow(#{inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075)});

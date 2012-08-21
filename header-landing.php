@@ -80,24 +80,22 @@
        
         <hgroup>
 			<div class="logo-head">
-            <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="http://www.joesnellpdx.com/wp-content/uploads/2012/07/Joe-Snell-Logowhite.png" alt="Joe Snell PDX Logo" width="100%" /></a>
-            </div> <!-- .logo-head -->
-            <h1 class="brand"><?php bloginfo( 'name' ); ?></br>
-			<span class="sub-head"><?php bloginfo( 'description' ); ?></span></h1>
-    <div class="landingmenu"><?php wp_nav_menu( array( 'theme_location' => 'landing' ) ); ?></div>
+                <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="http://www.joesnellpdx.com/wp-content/uploads/2012/07/Joe-Snell-Logowhite.png" alt="Joe Snell PDX Logo" width="100%" /></a>
+         	</div> <!-- .logo-head -->
+                <h1 class="brand"><?php bloginfo( 'name' ); ?></br>
+                <span class="sub-head"><?php bloginfo( 'description' ); ?></span></h1>
+                
+    		<div class="landingmenu">
+		
+					<?php wp_nav_menu( array( 'theme_location' => 'landing' ) ); ?>
+               
+            
+            </div>
 		</hgroup>
        
         </div>  <!-- .inner -->
         </div>  <!-- navbar -->
 
-		<!-- <div class="bs-links">
-        <nav role="navigation" class="site-navigation main-navigation">
-			<h4 class="assistive-text quick-links"><?php _e( 'Menu', 'joesnellpdx' ); ?></h4>
-			<div class="assistive-text skip-link quick-links"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'joesnellpdx' ); ?>"><?php _e( 'Skip to content', 'joesnellpdx' ); ?></a></div>
-
-			 <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?> 
-		</nav>
-        </div> <!-- .bs-links -->
 	</header><!-- #masthead .site-header  -->
 
 	<div id="main">

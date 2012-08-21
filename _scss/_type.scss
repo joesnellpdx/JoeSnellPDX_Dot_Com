@@ -84,18 +84,8 @@ h6 {
   line-height: 1;
 }
 
-// Portfolio
-
-#portfolio h2 {
-	font-family: $baseFontFamily;
-	font-size: $baseFontSize;
-	color: $joeorange;
-	font-weight: normal;
-	line-height: $baseLineHeight;
-	padding-top: 8px;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-}
-
+// Portfolio Heading - #portfolio - .portfolio - h2
+// -- See thumbnails.scss
 
 
 // LISTS
@@ -128,10 +118,16 @@ ol.unstyled {
   list-style: none;
 }
 
+// Landing Menu
+
 .landingmenu ul,
 .landingmenu ol {
 	margin: 0 0 0 0;
 }
+
+// Portfolio List - #portfolio - .portfolio
+// -- See thumbnails.scss
+
 
 // Description Lists
 dl {

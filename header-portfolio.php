@@ -48,7 +48,7 @@
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
-<body data-spy="scroll" data-target=".subnav" data-offset="50" <?php body_class('landingbody blog'); ?>>
+<body data-spy="scroll" data-target=".subnav" data-offset="50" <?php body_class(); ?>>
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->	
@@ -71,16 +71,16 @@
         <div class="navbar-inner">
         	
           <button type="button"class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            
+            <i class="icon-hand-up navbtn"></i> 
+            
           </button>
           
           <hgroup>
-			<div class="logo-head-base">
-            <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="http://www.joesnellpdx.com/wp-content/uploads/2012/07/Joe-Snell-Logowhite.png" alt="Joe Snell PDX Logo" width="100%" /></a>
-            </div> <!-- .logo-head -->
-            <h1 class="brand-base"><?php wp_title( " " ); ?></h1>
+                <div class="logo-head-base">
+                    <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="http://www.joesnellpdx.com/wp-content/uploads/2012/07/Joe-Snell-Logowhite.png" alt="Joe Snell PDX Logo" width="100%" /></a>
+                </div> <!-- .logo-head -->
+            	<h1 class="brand-base"><?php wp_title( " " ); ?></h1>
 		</hgroup>
           
           
