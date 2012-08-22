@@ -3,11 +3,6 @@
 
 @media (min-width: 768px) and (max-width: 979px) {
 
-
-  
-  
-
-
 	// Grid system and page structure
 	
 	// scaffolding
@@ -27,12 +22,32 @@
 		
 		// layouts
 		
+		body,
 		.landingbody {
-		background: $white;
+			background: $white;
+		}
+		.landingmenu,
+		.nav-collapse.collapse {
+			width: auto;
+			float: left;
+			clear: both;
+		}
+		#main {
+			margin: 120px 0 0 120px;
 		}
 	
 	// Base CSS
 		// type
+		
+		.navbar .brand,
+		.navbar .brand-base {
+			color: $grayDark;
+			font-size: $navFontSize;
+		}
+		.navbar .brand-base {
+			line-height: ($baseFontSize * 2 );
+		}
+		
 		// code
 		// forms
 		// tables
@@ -46,12 +61,76 @@
 	
 	// Components: Buttons & Alerts
 		// buttons
+		
+		.landingmenu .btn {
+			height: auto;
+			padding: 0px;
+			width: auto;
+			background: none;
+			@include border-radius(0px);
+			@include box-shadow(none);
+			border: none;
+			clear: both;
+			margin: 0px;
+		}
+		.landingmenu .btn-icon {
+			display: inline;
+		}
+		.navbar i {
+			color: $grayLight;
+			font-size: ($baseFontSize + 20);
+			text-shadow: 1px 1px $grayLight, -1px -1px $grayLighter;	
+		}
 		// button-groups
 		// alerts
 	
 	// Components: Nav
 		// navs
 		// navbar
+		
+		.navbar .logo-head {
+			float: left;
+		}
+		.navbar .logo-head-base {
+			width: 80px;
+			height: 80px;
+		}
+		
+		.navbar-inner,
+		.base .navbar-inner,
+		.nav-collapse.collapse {
+			background: $white;
+			box-shadow: none;
+		}
+		
+		.navbar .landingmenu > li , 
+		.navbar .landingmenu .menu > li  {
+			padding: 10px 0px;
+		}
+		
+		.navbar .landingmenu > li > a, 
+		.navbar .landingmenu .menu > li > a,
+		.navbar .nav > li > a, 
+		.navbar .menu > li > a {
+			color: $grayDark;
+			font-family: $headingsFontFamily;
+			font-size: ($baseFontSize + 20 );
+			width: auto;
+			padding: 0px;
+			margin: 0px;
+			lineheight: auto;
+		}
+		.navbar .nav > li, 
+		.navbar .menu > li {
+			clear: both;
+			padding: 10px 0px;
+		}
+		.navbar .nav > li > a, 
+		.navbar .menu > li > a {
+	
+		}
+		
+		
 		// breadcrumbs
 		// pagination
 		// pager

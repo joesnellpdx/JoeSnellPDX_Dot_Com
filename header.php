@@ -93,12 +93,11 @@
           
           
           
-          <div class="nav-collapse collapse">
-            
-            	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-        	
-            
-          </div>
+          	<div class="nav-collapse collapse">
+            	<div class="basemenu">
+            		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+              	<div>
+        	</div>
           </div> <!-- .inner -->
         </div> <!-- .navbar -->
       

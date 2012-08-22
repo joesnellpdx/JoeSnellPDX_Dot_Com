@@ -4,14 +4,14 @@
 
 !function ($) {
 
-$(".landingmenu").find("li").addClass("btn btn-large btn-inverse landing-button");
+$(".landingmenu").find("a").addClass("btn btn-large btn-inverse landing-button");
 $(".nav-collapse").find("#menu-primary-navigation").addClass("nav");
 $(".portfolioimg").find("img").addClass("thumbnail");
 
-$('.btn-about').prepend('<p class="btn-icon"><i class="icon-user"></i></p>');
-$('.btn-work').prepend('<p class="btn-icon"><i class="icon-briefcase"></i></p>');
-$('.btn-blog').prepend('<p class="btn-icon"><i class="icon-pencil"></i></p>');
-$('.btn-contact').prepend('<p class="btn-icon"><i class="icon-comment"></i></p>');
+$('.btn-about a').prepend('<p class="btn-icon"><i class="icon-user"></i></p>');
+$('.btn-work a').prepend('<p class="btn-icon"><i class="icon-briefcase"></i></p>');
+$('.btn-blog a').prepend('<p class="btn-icon"><i class="icon-pencil"></i></p>');
+$('.btn-contact a').prepend('<p class="btn-icon"><i class="icon-comment"></i></p>');
 //$(".landingmenu").find( "ul" ).css('margin', '0px');
 
 $('body').scrollTop(1);

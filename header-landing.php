@@ -86,11 +86,9 @@
                 <span class="sub-head"><?php bloginfo( 'description' ); ?></span></h1>
                 
     		<div class="landingmenu">
-		
 					<?php wp_nav_menu( array( 'theme_location' => 'landing' ) ); ?>
-               
-            
             </div>
+            
 		</hgroup>
        
         </div>  <!-- .inner -->

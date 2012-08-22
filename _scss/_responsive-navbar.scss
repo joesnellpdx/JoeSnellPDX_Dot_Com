@@ -1,6 +1,6 @@
-// TABLETS AND BELOW
+// BELOW TABLETS
 // -----------------
-@media (max-width: 979px) {
+@media (max-width: 768px) {
 
   // UNFIX THE TOPBAR
   // ----------------
@@ -49,7 +49,9 @@
     margin: 0 0 ($baseLineHeight / 2);
   }
   .nav-collapse .nav > li {
-    float: none;
+    /* float: none; */
+	width: 25%;
+	@include box-sizing(border-box);
   }
   .nav-collapse .nav > li > a {
     margin-bottom: 2px;
@@ -64,7 +66,7 @@
   // Nav and dropdown links in navbar
   .nav-collapse .nav > li > a,
   .nav-collapse .dropdown-menu a {
-    padding: 6px 0px 12px 0px;
+    padding: 0px 10px 12px 0px;
     font-weight: bold;
     color: $navbarLinkColor;
     @include border-radius(0);
